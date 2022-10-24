@@ -8,26 +8,30 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - whatis_arduino
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Olá, como você está?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
+  - text: "Aqui uma coisa pra te animar!"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+  - text: "Isso ajudou você?"
 
   utter_happy:
-  - text: "Great, carry on!"
+  - text: "Boa, continua nesse caminho!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Tchau, até mais"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Eu sou um bot bolado"
+
+  utter_whatis_arduino:
+  - text: "Arduino é uma plataforma de prototipagem eletrônica de hardware livre e de placa única, projetada com um microcontrolador Atmel AVR com suporte de entrada/saída embutido, uma linguagem de programação padrão, a qual tem origem em Wiring, e é essencialmente C/C++"
 
 session_config:
   session_expiration_time: 60

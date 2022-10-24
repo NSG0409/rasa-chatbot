@@ -17,6 +17,11 @@ nlu:
     - goodevening
     - good afternoon
     - olá
+    - oi
+    - saudações
+    - bom dia
+    - boa tarde
+    - boa noite
 
 - intent: goodbye
   examples: |
@@ -30,6 +35,11 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - boa noite
+    - tchau
+    - tenha um bom dia
+    - te vejo por aí
+    - tchau tchau
 
 - intent: affirm
   examples: |
@@ -39,6 +49,11 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - sim
+    - s
+    - de fato
+    - claro
+    - correto
 
 - intent: deny
   examples: |
@@ -49,6 +64,12 @@ nlu:
     - don't like that
     - no way
     - not really
+    - não
+    - n
+    - nunca
+    - eu não acho
+    - eu não gosto disso
+    - sem jeito
 
 - intent: mood_great
   examples: |
@@ -66,6 +87,11 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - perfeito
+    - maravilhoso
+    - me sentindo como um rei
+    - eu tô me sentindo muito bem
+    - me sinto bem
 
 - intent: mood_unhappy
   examples: |
@@ -83,6 +109,18 @@ nlu:
     - extremly sad
     - so saad
     - so sad
+    - eu estou triste
+    - triste
+    - muito triste
+    - nada bem
+    - não muito bom
+    - extreamente triste
+
+- intent: whatis_arduino
+  examples: |
+    - o que é arduino?
+    - arduino
+    - microcontrolador
 
 - intent: bot_challenge
   examples: |
@@ -90,3 +128,7 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - você é um bot?
+    - você é um humano?
+    - com quem eu tô falando? um robô?
+    - com quem eu tô falando? um humano?
