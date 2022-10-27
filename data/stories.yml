@@ -39,3 +39,11 @@ stories:
   - action: utter_electricity_concepts
   - intent: electric_quantities
   - action: utter_electric_quantities
+  - intent: electric_current
+  - action: utter_electric_current
+  - intent: voltage
+  - action: utter_voltage
+  - intent: resistance
+  - action: utter_resistance
+  - intent: power
+  - action: utter_power

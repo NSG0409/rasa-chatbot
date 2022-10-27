@@ -11,6 +11,10 @@ intents:
   - what_is_arduino
   - electricity_concepts
   - electric_quantities
+  - electric_current
+  - voltage
+  - resistance
+  - power
 
 responses:
   utter_greet:
@@ -40,6 +44,18 @@ responses:
 
   utter_electric_quantities:
   - text: "Corrente elétrica, tensão elétrica, resistência e potência elétrica são exemplos de grandezas elétricas, sendo que a grandeza é basicamente tudo que pode ser medido ou qualificado, podendo elas serem vetoriais ou escalares."
+
+  utter_electric_current: 
+  - text: "A corrente elétrica é caracterizada pelo fluxo ordenado dos elétrons, onde a sua unidade de medida é dada em ampere (A). A corrente elétrica pode ser contínua ou alternada, ou seja, ela pode ou não variar o seu valor e sentido em função do tempo."
+
+  utter_voltage: 
+  - text: "Tensão elétrica que também é conhecida como diferença de potencial (DDP) é a força necessária para movimentar os elétrons, assim criando uma corrente elétrica. A unidade de medida usada para tensão elétrica é o volt (V). Assim como a corrente elétrica a tensão elétrica também pode ser contínua e alternada, de forma que tensão elétrica contínua, não tem mudança de polaridade ao longo do tempo,enquanto isso a tensão alternada tem mudança em sua polaridade em função do tempo, de acordo com a sua frequência, que também é uma grandeza elétrica importante."
+
+  utter_resistance: 
+  - text: "A resistência elétrica basicamente dificulta a passagem da corrente elétrica, pois a resistência elétrica gera um obstáculo, que faz com que a corrente elétrica tenha uma dificuldade em percorrer um determinado condutor quando é submetida a uma determinada tensão elétrica. A unidade de medida usada para resistência é ohm (Ω)."
+
+  utter_power: 
+  - text: "A potência elétrica é o trabalho elétrico desenvolvido pela corrente elétrica em um período de tempo. A potência elétrica é responsável por converter a energia elétrica em outro tipo de energia. Como por exemplo, no chuveiro converter energia elétrica em energia térmica, e quanto maior a potência elétrica do chuveiro mais quente será água e quando menor a potência do chuveiro mais fria será água, se considerarmos a mesma vazão de água para ambos os casos. A unidade de medida usada para potência é watt (w). Além disso, podemos citar que existem três tipos de potência elétrica, que é a potência reativa, ativa e aparente."
 
 session_config:
   session_expiration_time: 60

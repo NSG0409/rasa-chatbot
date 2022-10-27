@@ -73,6 +73,35 @@ nlu:
     - grandezas eletricas
     - quais são as grandezas eletricas
 
+- intent: electric_current
+  examples: |
+    - corrente eletrica
+    - corrente elétrica
+    - o que é corrente elétrica?
+    - o que é corrente eletrica?
+
+- intent: voltage
+  examples: |
+    - voltagem
+    - tensão eletrica
+    - tensão elétrica
+    - ddp
+    - DDP
+
+- intent: resistance
+  examples: |
+    - o que é resistencia?
+    - resistencia eletrica
+    - resistencia
+    - resistencia elétrica
+
+- intent: power
+  examples: |
+    - potência elétrica
+    - potencia eletrica
+    - o que é potência elétrica?
+    - o que é potencia eletrica?
+
 - intent: bot_challenge
   examples: |
     - are you a bot?
