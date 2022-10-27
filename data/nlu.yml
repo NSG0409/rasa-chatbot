@@ -124,6 +124,29 @@ nlu:
     - o que é circuito misto?
     - circuito misto
 
+- intent: resistance_association
+  examples: |
+    - o que é associação de resistores?
+    - associação de resistores
+
+- intent: series_association
+  examples: |
+    - o que é associação em série?
+    - o que e associação em serie?
+    - associação em série
+
+- intent: parallel_association
+  examples: |
+    - o que é associação em paralelo?
+    - o que e associação em paralelo?
+    - associação em paralelo
+
+- intent: mixed_association
+  examples: |
+    - o que é associação mista?
+    - o que e associação mista?
+    - associação misto
+
 - intent: bot_challenge
   examples: |
     - are you a bot?

@@ -60,3 +60,16 @@ stories:
   - action: utter_series_circuit
   - intent: mixed_circuit
   - action: utter_mixed_circuit
+
+- story: circuits association
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: resistance_association
+  - action: utter_resistance_association
+  - intent: series_association
+  - action: utter_series_association
+  - intent: parallel_association
+  - action: utter_parallel_association
+  - intent: mixed_association
+  - action: utter_mixed_association

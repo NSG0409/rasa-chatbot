@@ -18,6 +18,11 @@ intents:
   - electric_circuit
   - series_circuit
   - parallel_circuit
+  - mixed_circuit
+  - resistance_association
+  - parallel_association
+  - series_association
+  - mixed_association
 
 responses:
   utter_greet:
@@ -71,6 +76,18 @@ responses:
 
   utter_mixed_circuit: 
   - text: "O circuito misto é a junção do circuito em série com paralelo como por exemplo, na ligação de três lâmpadas em um circuito misto ilustrada na imagem abaixo, o condutor passa pela primeira lâmpada para depois fazer uma derivação no condutor, sendo dividido para as outras lâmpadas."
+
+  utter_resistance_association: 
+  - text: "Associação de resistores é feita em circuito que tem mais de um resistor, sendo que são três tipos de associações de resistores, em série, paralelo e mista."
+
+  utter_series_association:
+  - text: "A associação em série de resistores e basicamente indica uma sequência na ligação dos resistores, onde a corrente elétrica que passa nos resistores é mesma. Para calcular a resistência equivalente de uma associação resistores em série deve somar as resistências de cada resistor." 
+
+  utter_parallel_association: 
+  - text: "Na associação de resistores em paralelo, os resistores são ligado em dois pontos em comum, assim recebem a mesma tensão elétrica. Para calcular a resistência equivalente da associação em paralelo de resistores deve se multiplicar as resistências sobre a soma das resistências. Em circuitos com resistores de mesma resistência pode se dividir a resistência de um resistor pelo número de resistores nos circuitos, todos resistores devem ter a mesma resistência para aplicar essa fórmula."
+
+  utter_mixed_association: 
+  - text: "Na associação mista é o conjunto das associações em série e paralelo. Para calcular a resistência equivalente na associação mista, deve-se aplicar a fórmula da associação em série e paralelo."
 
 session_config:
   session_expiration_time: 60
