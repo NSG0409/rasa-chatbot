@@ -8,11 +8,12 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - whatis_arduino
+  - what_is_arduino
+  - electricity_concepts
 
 responses:
   utter_greet:
-  - text: "Olá, como você está?"
+  - text: "Olá, eu sou o Rasa, o chatbot que te ajudará a aprender sobre o Arduino. Vamos começar? Me pergunte algum tema relacionado"
 
   utter_cheer_up:
   - text: "Aqui uma coisa pra te animar!"
@@ -30,8 +31,11 @@ responses:
   utter_iamabot:
   - text: "Eu sou um bot bolado"
 
-  utter_whatis_arduino:
+  utter_what_is_arduino:
   - text: "Arduino é uma plataforma de prototipagem eletrônica de hardware livre e de placa única, projetada com um microcontrolador Atmel AVR com suporte de entrada/saída embutido, uma linguagem de programação padrão, a qual tem origem em Wiring, e é essencialmente C/C++"
+
+  utter_electricity_concepts:
+  - text: "Eletricidade é o estudo de vários fenômenos referentes a presença e movimento dos elétrons. Na Física é a área que estuda os fenômenos causados pela presença e movimento de cargas elétricas como por exemplo, eletrostática, eletrocinética, eletromagnetismo e eletrodinâmica."
 
 session_config:
   session_expiration_time: 60

@@ -33,8 +33,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: whatis_arduino
-  - action: utter_whatis_arduino
+  - intent: what_is_arduino
+  - action: utter_what_is_arduino
+  - intent: electricity_concepts
+  - action: utter_electricity_concepts
