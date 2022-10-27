@@ -37,3 +37,5 @@ stories:
   - action: utter_what_is_arduino
   - intent: electricity_concepts
   - action: utter_electricity_concepts
+  - intent: electric_quantities
+  - action: utter_electric_quantities

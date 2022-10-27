@@ -10,6 +10,7 @@ intents:
   - bot_challenge
   - what_is_arduino
   - electricity_concepts
+  - electric_quantities
 
 responses:
   utter_greet:
@@ -36,6 +37,9 @@ responses:
 
   utter_electricity_concepts:
   - text: "Eletricidade é o estudo de vários fenômenos referentes a presença e movimento dos elétrons. Na Física é a área que estuda os fenômenos causados pela presença e movimento de cargas elétricas como por exemplo, eletrostática, eletrocinética, eletromagnetismo e eletrodinâmica."
+
+  utter_electric_quantities:
+  - text: "Corrente elétrica, tensão elétrica, resistência e potência elétrica são exemplos de grandezas elétricas, sendo que a grandeza é basicamente tudo que pode ser medido ou qualificado, podendo elas serem vetoriais ou escalares."
 
 session_config:
   session_expiration_time: 60

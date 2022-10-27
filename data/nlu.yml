@@ -67,6 +67,12 @@ nlu:
     - quero começar a entender
     - por onde começo?
 
+- intent: electric_quantities
+  examples: |
+    - o que são grandezas eletricas?
+    - grandezas eletricas
+    - quais são as grandezas eletricas
+
 - intent: bot_challenge
   examples: |
     - are you a bot?
