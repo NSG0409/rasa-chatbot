@@ -15,6 +15,9 @@ intents:
   - voltage
   - resistance
   - power
+  - electric_circuit
+  - series_circuit
+  - parallel_circuit
 
 responses:
   utter_greet:
@@ -56,6 +59,18 @@ responses:
 
   utter_power: 
   - text: "A potência elétrica é o trabalho elétrico desenvolvido pela corrente elétrica em um período de tempo. A potência elétrica é responsável por converter a energia elétrica em outro tipo de energia. Como por exemplo, no chuveiro converter energia elétrica em energia térmica, e quanto maior a potência elétrica do chuveiro mais quente será água e quando menor a potência do chuveiro mais fria será água, se considerarmos a mesma vazão de água para ambos os casos. A unidade de medida usada para potência é watt (w). Além disso, podemos citar que existem três tipos de potência elétrica, que é a potência reativa, ativa e aparente."
+
+  utter_electric_circuit:
+  - text: "O circuito elétrico é um caminho fechado onde o começo e fim são no mesmo ponto. Um circuito elétrico básico é composto por fonte, carga e condutor elétrico. A fonte pode ser, uma pilha, bateria, tomada ou outra fonte, onde exista uma diferença de potencial elétrico. A carga que irá consumir a energia elétrica do circuito como por exemplo, lâmpada, computador, televisão etc. O condutor elétrico (fio e cabos elétricos) é responsável por conduzir a corrente elétrica da fonte até a carga do circuito que a consome. Quando tem mais de uma carga podemos ter diferentes tipos de circuito elétrico. Como por exemplo, circuito em série, circuito paralelo e circuito misto."
+
+  utter_series_circuit:
+  - text: "O circuito em série indica uma sequência na ligação, como por exemplo, na ligação de três lâmpadas em série. Percorrendo o caminho feito pelo condutor elétrico, vemos que o circuito é fechado começando e acabando no mesmo ponto, de forma com que a corrente elétrica percorra apenas um único caminho de forma com que a corrente elétrica percorra apenas um único caminho"
+
+  utter_parallel_circuit:
+  - text: "No circuito paralelo a corrente elétrica se divide ao chegar no nó (emenda ou derivação), dessa forma a corrente terá dois ou mais caminhos para seguir, sempre havendo maior corrente elétrica pelo caminho de menor resistência. Confira na imagem abaixo a ligação de três lâmpadas em paralelo."
+
+  utter_mixed_circuit: 
+  - text: "O circuito misto é a junção do circuito em série com paralelo como por exemplo, na ligação de três lâmpadas em um circuito misto ilustrada na imagem abaixo, o condutor passa pela primeira lâmpada para depois fazer uma derivação no condutor, sendo dividido para as outras lâmpadas."
 
 session_config:
   session_expiration_time: 60

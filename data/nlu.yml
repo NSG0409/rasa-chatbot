@@ -102,6 +102,28 @@ nlu:
     - o que é potência elétrica?
     - o que é potencia eletrica?
 
+- intent: electric_circuit
+  examples: |
+    - o que é um circuito eletrico?
+    - como funciona um circuito eletrico?
+    - circuito eletrico
+    - circuito elétrico
+
+- intent: series_circuit
+  examples: |
+    - o que é circuito serie?
+    - circuito serie
+
+- intent: parallel_circuit
+  examples: |
+    - o que é circuito paralelo?
+    - circuito paralelo
+
+- intent: mixed_circuit
+  examples: |
+    - o que é circuito misto?
+    - circuito misto
+
 - intent: bot_challenge
   examples: |
     - are you a bot?

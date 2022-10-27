@@ -47,3 +47,16 @@ stories:
   - action: utter_resistance
   - intent: power
   - action: utter_power
+
+- story: electric circuits
+  steps: 
+  - intent: greet
+  - action: utter_greet
+  - intent: electric_circuit
+  - action: utter_electric_circuit
+  - intent: parallel_circuit
+  - action: utter_parallel_circuit
+  - intent: series_circuit
+  - action: utter_series_circuit
+  - intent: mixed_circuit
+  - action: utter_mixed_circuit
